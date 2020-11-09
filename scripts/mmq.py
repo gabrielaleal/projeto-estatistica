@@ -29,7 +29,7 @@ def mmq(xarray, yarray, n_var):
 				mc[i][j] = np.sum(np.power(buff, i+j))
 	
 	h = gauss_jordan(mc)
-	x = np.linspace(-1,1, 100)
+	x = np.linspace(0,70, 100)
 	y = h[0] + h[1]*x
 	
 	fig = plt.figure()
