@@ -2,3 +2,4 @@ mpmath==1.1.0
 numpy==1.19.3
 scipy==1.5.3
 xlrd==1.2.0
+matplotlib==3.3.2
